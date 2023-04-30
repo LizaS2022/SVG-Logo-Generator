@@ -1,6 +1,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { Square,Circle, Triangle,renderShape} = require('./lib/shapes');
+const colorName = require('color-name-list');
+
+
 const questions = [
     {
         type: "input",
@@ -18,7 +21,7 @@ const questions = [
         type: "list",
         name: "shape",
         message: "Choose a shape:",
-        choices: ["Square", "Circle", "Triangle"]
+        choices: ["Square", "Circle", "Triangle"],
     },
 
     {
