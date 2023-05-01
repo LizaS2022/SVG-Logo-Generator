@@ -2,19 +2,23 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const { Square,Circle, Triangle,renderShape} = require('./lib/shapes');
 const colorName = require('color-name-list');
-
+const { validateinputText, validateColorName } = require('./lib/validateInput');
 
 const questions = [
     {
         type: "input",
         name: "text",
         message: "Please enter a maximum of three characters text",
+        validate: validateinputText,
+       
     },
 
     {
         type: "input",
         name: "textColor",
         message: "Enter desired text color",
+        validate: validateColorName,
+        
     },
 
     {
@@ -28,6 +32,8 @@ const questions = [
         type: "input",
         name: "shapeColor",
         message: "Enter desired shape color",
+        validate: validateColorName,
+    
     }
     
 ]
