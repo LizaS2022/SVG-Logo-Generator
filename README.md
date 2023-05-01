@@ -37,4 +37,4 @@ Licensed under the [MIT](http://choosealicense.com/licenses/mit/) license.
 
 [The URL of the GitHub profile](https://github.com/LizaS2022).
 
-The link to the wlkthrough video.
+[The link to the wlkthrough video.](https://drive.google.com/file/d/1vI3GLe5iZaTT2_MdbVnJRHWsRcexYgG6/view)
