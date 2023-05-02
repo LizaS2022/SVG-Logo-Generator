@@ -23,7 +23,8 @@ This app uses the Inquirer package, Jest package, and color-name-list package. M
 ## Usage
 
 This app generate a logo SVG.
-![1682947005876](image/READMEcopy/1682947005876.png)
+
+![1683032685405](image/README/1683032685405.png)
 
 ## License
 
